@@ -61,6 +61,7 @@ Problema → Diagnóstico → Estratégia → Execução → Riscos.
 | Nome Completo | Harllen Dias |
 | Como Chamar | Harllen |
 | Localização | Brasil |
+| Empresa | Shopee |
 | Profissão | Especialista em Logística, Projetos e Processos |
 | Formação | ADS + MBA em Gestão de Projetos |
 | Perfil Técnico | Lean, DMAIC, análise de dados, WMS, KPIs |
