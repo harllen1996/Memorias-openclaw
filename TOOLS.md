@@ -1,40 +1,33 @@
 # TOOLS.md - Local Notes
 
-Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+## ClickUp
 
-## What Goes Here
+- **API Key:** Salva em `/root/.openclaw/credentials/clickup.json`
+- **Workspace:** Shopee (ID: 90133006700)
+- **Spaces:**
+  - Espaço da equipe (901313069561)
+  - Rafael (901313201192)
+  - Trello Rafael (901313203043)
 
-Things like:
+### Comandos úteis
 
-- Camera names and locations
-- SSH hosts and aliases
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
+```bash
+# Listar tasks do space "Espaço da equipe"
+curl -H "Authorization: $CLICKUP_TOKEN" "https://api.clickup.com/api/v2/team/90133006700/space/901313069561/list"
 
-## Examples
-
-```markdown
-### Cameras
-
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
-
-### SSH
-
-- home-server → 192.168.1.100, user: admin
-
-### TTS
-
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
+# Criar task
+curl -X POST -H "Authorization: $CLICKUP_TOKEN" \
+  -H "Content-Type: application/json" \
+  "https://api.clickup.com/api/v2/list/{list_id}/task" \
+  -d '{"name": "Nova task", "description": "Descrição"}'
 ```
 
-## Why Separate?
+## Telegram
 
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
+- **Bot Token:** Configurado no OpenClaw
+- **Chat ID:** 6463394115 (Harllen)
 
----
+## Git Backup
 
-Add whatever helps you do your job. This is your cheat sheet.
+- **Repo:** git@github.com:harllen1996/Memorias-openclaw.git
+- **Schedule:** A cada 2 horas

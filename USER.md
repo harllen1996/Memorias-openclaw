@@ -1,17 +1,20 @@
 # USER.md - About Your Human
 
-_Learn about the person you're helping. Update this as you go._
+## Info
 
-- **Name:**
-- **What to call them:**
-- **Pronouns:** _(optional)_
-- **Timezone:**
-- **Notes:**
+- **Name:** Harllen Dias Gomes
+- **What to call them:** Harllen
+- **Timezone:** America/Sao_Paulo (UTC-3)
+- **Email:** harllen.gomes@shopee.com
 
 ## Context
 
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
+- Trabalha na Shopee
+- Usa ClickUp para gestão de tarefas
+- Workspace ClickUp: "Shopee" (ID: 90133006700)
+- Spaces: "Espaço da equipe", "Rafael", "Trello Rafael"
 
----
+## Preferences
 
-The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
+- Prefere backups frequentes (git backup a cada 2h)
+- Sessões limpas a cada 6h (retenção de 2 dias)
